@@ -1,8 +1,10 @@
 .dish-list {
-  display: flexbox;
+  display: flex;
   margin: 16px;
 }
 .dishes {
   width: 40%;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
